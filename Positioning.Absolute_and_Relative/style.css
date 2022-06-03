@@ -1,0 +1,51 @@
+.composition
+{
+    width: 600px;
+    height: 400px;
+    background-image: url(img/bg.jpg);
+    position: relative;
+}
+.item{
+    position: absolute;
+}
+.item.neptun
+{
+    top: 20px;
+    left: 150px;
+    z-index: 1;
+}
+.item.uran
+{
+    top: 75px;
+    left: 30px;
+    z-index: 2;
+}
+.item.saturn
+{
+    bottom: 20px;
+    left:100px;
+    z-index: 4;
+
+}
+.item.spaceship
+{
+    top:150px;
+    left: 105px;
+    z-index: 3;
+}
+.item.ufo
+{
+    bottom: 40px;
+    left:80px;
+    z-index: 5;
+}
+.item.asteroid
+{
+    top:100px;
+    right: 100px;
+}
+.item.superman
+{
+    right: 30px;
+    bottom: 0;
+}
